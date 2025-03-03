@@ -11,7 +11,7 @@ FizzBuzzProcessor is a .NET Core Web API that accepts an array of values and pro
 ## Features
 ✅ Developed using **.NET 8 (Latest Version)**  
 ✅ Implements **SOLID Principles**  
-✅ Uses **Dependency Injection + Factory Pattern**  
+✅ Uses **Dependency Injection**  
 ✅ **Unit Tested** with xUnit & Moq  
 ✅ **Swagger & Postman Support**  
 
