@@ -15,13 +15,10 @@ namespace FizzBuzzProcessor.API.Controllers
             _fizzBuzzService = fizzBuzzService;
         }
 
-        [HttpPost("process")]
-        public IActionResult Process([FromBody] List<string> values)
+        [HttpGet("{number}")]
+        public IActionResult GetFizzBuzz(int number)
         {
-            if (values == null || values.Count == 0)
-                return BadRequest("Input cannot be empty.");
-
-            var result = _fizzBuzzService.ProcessFizzBuzz(values);
+            var result = _fizzBuzzService.GetFizzBuzzResult(number);
             return Ok(result);
         }
     }

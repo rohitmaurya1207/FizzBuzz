@@ -2,6 +2,6 @@
 {
     public interface IFizzBuzzService
     {
-        List<string> ProcessFizzBuzz(List<string> inputs);
+        string GetFizzBuzzResult(int number);
     }
 }
