@@ -18,4 +18,26 @@ FizzBuzzProcessor is a .NET Core Web API that accepts an array of values and pro
 ### Prerequisites
 - Install **Visual Studio 2022**  
 - Install **.NET SDK (Latest Version)**  
-- (Optional) Install **Postman** for API testing 
+- (Optional) Install **Postman** for API testing
+
+
+# C# Console Application  
+## Prerequisites  
+Before running the application, ensure you have:  
+- .NET SDK installed (Check with: `dotnet --version`)
+
+- ## Running the Console Application
+
+- ### **Method 1: Running with `dotnet run` (Development Mode)**  
+1. Open Command Prompt or PowerShell.  
+2. Navigate to the project directory:  
+   'cd path\to\your\project'
+3.  Run the application using
+   'dotnet run'
+4. Once the application starts goto
+   http://localhost:5005/swagger/index.html
+
+
+## Troubleshooting
+1. If you encounter permission issues, try running the command prompt as Administrator.
+2. Ensure .NET SDK is installed and available in system PATH.
