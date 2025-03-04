@@ -28,7 +28,7 @@ Before running the application, ensure you have:
 
 - ## Running the Console Application
 
-- ### **Method 1: Running with `dotnet run` (Development Mode)**  
+- ### ** Running with `dotnet run`**  
 1. Open Command Prompt or PowerShell.  
 2. Navigate to the project directory:  
    'cd path\to\your\project'
